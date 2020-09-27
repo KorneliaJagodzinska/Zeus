@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class MenuDto {
-    private String name;
-    private String url;
+public class CommentDto {
+    private String author;
+    private String text;
+
 }
