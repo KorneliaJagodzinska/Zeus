@@ -13,6 +13,15 @@ public class ArticleDto {
     private String text;
     private List<CommentDto> comments;
 
+    @Override
+    public String toString() {
+        return "ArticleDto{" +
+                "title='" + title + '\'' +
+                ", text='" + text + '\'' +
+                ", comments=" + comments +
+                '}';
+    }
+
     public String getTitle() {
         return title;
     }
