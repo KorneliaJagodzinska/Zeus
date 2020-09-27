@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+//data transfer object
 public class PersonDto {
     private String name;
     private String surname;
