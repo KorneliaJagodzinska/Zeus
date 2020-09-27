@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MenuDto {
-    private String name;
     private String url;
+    private String name;
+
 }

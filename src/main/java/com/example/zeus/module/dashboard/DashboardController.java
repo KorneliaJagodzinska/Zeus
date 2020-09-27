@@ -22,6 +22,10 @@ public class DashboardController {
         return List.of(
                 new MenuDto("http://michalszalkowski.com/aws/", "AWS"),
                 new MenuDto("http://michalszalkowski.com/security/", "Security"),
+                new MenuDto("http://michalszalkowski.com/java/", "Java"),
+                new MenuDto("http://michalszalkowski.com/java/", "Spring"),
+                new MenuDto("http://michalszalkowski.com/java/", "Java"),
+                new MenuDto("http://michalszalkowski.com/java/", "Java"),
                 new MenuDto("http://michalszalkowski.com/java/", "Java")
         );
     }
@@ -29,7 +33,7 @@ public class DashboardController {
     private ArticleDto getArticle() {
         return new ArticleDto()
                 .setTitle("AWS Certified Cloud Practitioner (CLF-C01)")
-                .setText("lorem ipsum...")
+                .setText("Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).")
                 .setComments(
                         List.of(
                                 new CommentDto("admin", "text1"),
